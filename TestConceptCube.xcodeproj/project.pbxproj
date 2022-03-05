@@ -7,6 +7,8 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		325B88D927D0B08A008B4D7F /* SignUpViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 325B88D827D0B08A008B4D7F /* SignUpViewController.swift */; };
+		32C374A327D2A98700AC2358 /* cards in Resources */ = {isa = PBXBuildFile; fileRef = 32C374A227D2A98700AC2358 /* cards */; };
 		32DD049F27D0985F00D5BE21 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 32DD049E27D0985F00D5BE21 /* AppDelegate.swift */; };
 		32DD04A127D0985F00D5BE21 /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 32DD04A027D0985F00D5BE21 /* SceneDelegate.swift */; };
 		32DD04A327D0985F00D5BE21 /* HomeViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 32DD04A227D0985F00D5BE21 /* HomeViewController.swift */; };
@@ -14,9 +16,14 @@
 		32DD04A827D0986000D5BE21 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 32DD04A727D0986000D5BE21 /* Assets.xcassets */; };
 		32DD04AB27D0986000D5BE21 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 32DD04A927D0986000D5BE21 /* LaunchScreen.storyboard */; };
 		32DD04B827D099F100D5BE21 /* LoginViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 32DD04B727D099F100D5BE21 /* LoginViewController.swift */; };
+		32DD04BA27D0A04200D5BE21 /* GoogleService-Info.plist in Resources */ = {isa = PBXBuildFile; fileRef = 32DD04B927D0A04200D5BE21 /* GoogleService-Info.plist */; };
+		6523757316FEBE0215C4D9E6 /* Pods_TestConceptCube.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 2073188C35676B147AD4817A /* Pods_TestConceptCube.framework */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
+		2073188C35676B147AD4817A /* Pods_TestConceptCube.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_TestConceptCube.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		325B88D827D0B08A008B4D7F /* SignUpViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SignUpViewController.swift; sourceTree = "<group>"; };
+		32C374A227D2A98700AC2358 /* cards */ = {isa = PBXFileReference; lastKnownFileType = folder; path = cards; sourceTree = "<group>"; };
 		32DD049B27D0985F00D5BE21 /* TestConceptCube.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = TestConceptCube.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		32DD049E27D0985F00D5BE21 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		32DD04A027D0985F00D5BE21 /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
@@ -26,6 +33,9 @@
 		32DD04AA27D0986000D5BE21 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		32DD04AC27D0986000D5BE21 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		32DD04B727D099F100D5BE21 /* LoginViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LoginViewController.swift; sourceTree = "<group>"; };
+		32DD04B927D0A04200D5BE21 /* GoogleService-Info.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; path = "GoogleService-Info.plist"; sourceTree = "<group>"; };
+		819B8FE3BFF0B2B8A8FA3CE8 /* Pods-TestConceptCube.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-TestConceptCube.debug.xcconfig"; path = "Target Support Files/Pods-TestConceptCube/Pods-TestConceptCube.debug.xcconfig"; sourceTree = "<group>"; };
+		E4046761C5B7D0ABA232F60F /* Pods-TestConceptCube.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-TestConceptCube.release.xcconfig"; path = "Target Support Files/Pods-TestConceptCube/Pods-TestConceptCube.release.xcconfig"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -33,17 +43,28 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				6523757316FEBE0215C4D9E6 /* Pods_TestConceptCube.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		31F51BA3D40FD8704BC9B8CE /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				2073188C35676B147AD4817A /* Pods_TestConceptCube.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
 		32DD049227D0985E00D5BE21 = {
 			isa = PBXGroup;
 			children = (
 				32DD049D27D0985F00D5BE21 /* TestConceptCube */,
 				32DD049C27D0985F00D5BE21 /* Products */,
+				642F5CC03E101861ABDF5350 /* Pods */,
+				31F51BA3D40FD8704BC9B8CE /* Frameworks */,
 			);
 			sourceTree = "<group>";
 		};
@@ -62,6 +83,7 @@
 				32DD04B427D098AF00D5BE21 /* Models */,
 				32DD04B327D0989C00D5BE21 /* Views */,
 				32DD04B227D0989600D5BE21 /* Controllers */,
+				32C374A227D2A98700AC2358 /* cards */,
 				32DD04AC27D0986000D5BE21 /* Info.plist */,
 			);
 			path = TestConceptCube;
@@ -72,6 +94,7 @@
 			children = (
 				32DD04A227D0985F00D5BE21 /* HomeViewController.swift */,
 				32DD04B727D099F100D5BE21 /* LoginViewController.swift */,
+				325B88D827D0B08A008B4D7F /* SignUpViewController.swift */,
 			);
 			path = Controllers;
 			sourceTree = "<group>";
@@ -97,6 +120,7 @@
 			children = (
 				32DD049E27D0985F00D5BE21 /* AppDelegate.swift */,
 				32DD04A027D0985F00D5BE21 /* SceneDelegate.swift */,
+				32DD04B927D0A04200D5BE21 /* GoogleService-Info.plist */,
 			);
 			path = Resources;
 			sourceTree = "<group>";
@@ -110,6 +134,15 @@
 			path = Storyboards;
 			sourceTree = "<group>";
 		};
+		642F5CC03E101861ABDF5350 /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				819B8FE3BFF0B2B8A8FA3CE8 /* Pods-TestConceptCube.debug.xcconfig */,
+				E4046761C5B7D0ABA232F60F /* Pods-TestConceptCube.release.xcconfig */,
+			);
+			path = Pods;
+			sourceTree = "<group>";
+		};
 /* End PBXGroup section */
 
 /* Begin PBXNativeTarget section */
@@ -117,9 +150,11 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = 32DD04AF27D0986000D5BE21 /* Build configuration list for PBXNativeTarget "TestConceptCube" */;
 			buildPhases = (
+				EEABFF7B4636DA1FEEFB0C52 /* [CP] Check Pods Manifest.lock */,
 				32DD049727D0985F00D5BE21 /* Sources */,
 				32DD049827D0985F00D5BE21 /* Frameworks */,
 				32DD049927D0985F00D5BE21 /* Resources */,
+				B231799FA5A8CBE12A3FE8BB /* [CP] Embed Pods Frameworks */,
 			);
 			buildRules = (
 			);
@@ -169,12 +204,56 @@
 			buildActionMask = 2147483647;
 			files = (
 				32DD04AB27D0986000D5BE21 /* LaunchScreen.storyboard in Resources */,
+				32DD04BA27D0A04200D5BE21 /* GoogleService-Info.plist in Resources */,
 				32DD04A827D0986000D5BE21 /* Assets.xcassets in Resources */,
+				32C374A327D2A98700AC2358 /* cards in Resources */,
 				32DD04A627D0985F00D5BE21 /* Main.storyboard in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXResourcesBuildPhase section */
+
+/* Begin PBXShellScriptBuildPhase section */
+		B231799FA5A8CBE12A3FE8BB /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-TestConceptCube/Pods-TestConceptCube-frameworks-${CONFIGURATION}-input-files.xcfilelist",
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-TestConceptCube/Pods-TestConceptCube-frameworks-${CONFIGURATION}-output-files.xcfilelist",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${PODS_ROOT}/Target Support Files/Pods-TestConceptCube/Pods-TestConceptCube-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		EEABFF7B4636DA1FEEFB0C52 /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputFileListPaths = (
+			);
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-TestConceptCube-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
 
 /* Begin PBXSourcesBuildPhase section */
 		32DD049727D0985F00D5BE21 /* Sources */ = {
@@ -182,6 +261,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				32DD04B827D099F100D5BE21 /* LoginViewController.swift in Sources */,
+				325B88D927D0B08A008B4D7F /* SignUpViewController.swift in Sources */,
 				32DD04A327D0985F00D5BE21 /* HomeViewController.swift in Sources */,
 				32DD049F27D0985F00D5BE21 /* AppDelegate.swift in Sources */,
 				32DD04A127D0985F00D5BE21 /* SceneDelegate.swift in Sources */,
@@ -328,13 +408,16 @@
 		};
 		32DD04B027D0986000D5BE21 /* Debug */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 819B8FE3BFF0B2B8A8FA3CE8 /* Pods-TestConceptCube.debug.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
 				CODE_SIGN_STYLE = Automatic;
 				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = 8MRQ5H5XR3;
 				GENERATE_INFOPLIST_FILE = YES;
 				INFOPLIST_FILE = TestConceptCube/Info.plist;
+				INFOPLIST_KEY_CFBundleDisplayName = VuPhan;
 				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
 				INFOPLIST_KEY_UILaunchStoryboardName = LaunchScreen;
 				INFOPLIST_KEY_UIMainStoryboardFile = Main;
@@ -355,13 +438,16 @@
 		};
 		32DD04B127D0986000D5BE21 /* Release */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = E4046761C5B7D0ABA232F60F /* Pods-TestConceptCube.release.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
 				CODE_SIGN_STYLE = Automatic;
 				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = 8MRQ5H5XR3;
 				GENERATE_INFOPLIST_FILE = YES;
 				INFOPLIST_FILE = TestConceptCube/Info.plist;
+				INFOPLIST_KEY_CFBundleDisplayName = VuPhan;
 				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
 				INFOPLIST_KEY_UILaunchStoryboardName = LaunchScreen;
 				INFOPLIST_KEY_UIMainStoryboardFile = Main;
